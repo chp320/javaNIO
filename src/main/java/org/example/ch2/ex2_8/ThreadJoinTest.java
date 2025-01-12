@@ -32,6 +32,7 @@ public class ThreadJoinTest {
         // 쓰레드를 시작한다.
         System.out.println("MyThread 호출");
         t.start();
+        System.out.println("\t thread이름: " + t.getName());
 
         /*
          * join() 메서드 실행
