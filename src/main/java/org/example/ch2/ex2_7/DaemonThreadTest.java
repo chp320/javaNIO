@@ -5,6 +5,7 @@ package org.example.ch2.ex2_7;
  * 데몬 쓰레드는 이러한 조건에서 예외가 된다. 즉, 데몬 쓰레드로 생성된 경우 어플리케이션이 종료되면 바로 종료한다.
  *
  * 일반 쓰레드 호출과 달리 start() 메서드 호출 전 setDaemon(true) 를 호출해서 '데몬 쓰레드' 설정을 해야한다.
+ * 일반 쓰레드, 데몬 쓰레드 여부 확인 필요할 경우, isDaemon() 메서드로 확인 가능
  */
 public class DaemonThreadTest {
 
