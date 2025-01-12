@@ -28,6 +28,9 @@ public class DaemonThreadTest {
         // 쓰레드를 시작한다.
         t.start();
 
+        // 데몬 쓰레드 여부 확인
+        System.out.println("isDaemon: " + t.isDaemon());
+
         // 만일 start() 이후 setDaemon() 호출하면 IllegalException 발생한다.
 //        t.setDaemon(true);
 
