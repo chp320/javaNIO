@@ -7,6 +7,8 @@ package org.example.ch2.ex2_6;
 public class NomalThreadTest {
 
     public static void main(String[] args) {
+        System.out.println("main() 시작");
+
         // 쓰레드 생성
         Thread t = new Thread() {
             public void run() {
@@ -21,6 +23,7 @@ public class NomalThreadTest {
             }
         };
         // 쓰레드 시작
+        System.out.println("MyThread 시작");
         t.start();
 
         // main 메서드 종료 메시지
