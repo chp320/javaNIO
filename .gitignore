@@ -1,7 +1,13 @@
+# 1. Compiled class file
+*.class
+# 2. Maven build output
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+# 4. OS generated files
+Thumbs.db
+.DS_Store
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -17,7 +23,8 @@ target/
 .classpath
 .factorypath
 .project
-.settings
+.settings/
+.metadata/
 .springBeans
 .sts4-cache
 
