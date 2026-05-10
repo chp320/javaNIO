@@ -23,3 +23,7 @@
 - 마샬링의 반대과정으로 '전송받은 데이터를 원래 형태로 변환하는 과정'
 - 객체 직렬화의 반대 경우로 '역직렬화'라고 함
 - ObjectInputStream.readObject() 에 의해 역직렬화(deserialization)
+
+### 정리
+- ObjectOutputStream 은 객체를 '직렬화' 하기 위해 사용
+- ObjectInputStream 은 전송받은 데이터를 '역직렬화' 하기 위해 사용
