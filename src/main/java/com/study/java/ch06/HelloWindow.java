@@ -17,7 +17,7 @@ public class HelloWindow extends Frame implements Serializable {
 		setSize(200, 200);
 	}
 	
-	class WindowEventHandler extends WindowAdapter {
+	class WindowEventHandler extends WindowAdapter implements Serializable {
 		public void windowClosing(WindowEvent e) {
 			System.out.println("윈도우를 종료합니다.");
 			System.exit(0);
