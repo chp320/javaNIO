@@ -41,7 +41,7 @@ public class UDPEchoServer {
 				
 				// 송신
 				DatagramPacket sendPacket = new DatagramPacket(receivePacket.getData(),
-															   receivePacket.getData().length,
+															   receivePacket.getLength(),	// 기존) .getData().length 
 															   receivePacket.getAddress(),
 															   receivePacket.getPort());
 				dsock.send(sendPacket);
